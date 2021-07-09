@@ -42,9 +42,9 @@ export  function movies(state = intialMoviesState,action){
     }
     
 }
-const intialSearchState = {
-    result : {}
-}
+// const intialSearchState = {
+//     result : {}
+// }
 export function search(state = {result :{}} , action){
     switch(action.type){
         case ADD_SEARCH_RESULT: 
@@ -58,10 +58,10 @@ export function search(state = {result :{}} , action){
   
 }
 
-const intialRootState = {
-    movies : intialMoviesState,
-    search : intialSearchState
-}
+// const intialRootState = {
+//     movies : intialMoviesState,
+//     search : intialSearchState
+// }
 // export function rootReducer(state = intialRootState , action){   //instead of this we can use reduc cominereducers method
 //     return{
 //         movies: movies(state.movies,action),
