@@ -4,6 +4,7 @@ import { addMovies, setShowFavourites } from "../actions";
 import Navbar from "./Navbar";
 import MovieCard from "./MovieCard";
 import { StoreContext } from "../index";
+import Footer from './Footer'
 import {connect} from 'react-redux'
 class App extends React.Component {
   componentDidMount() {
@@ -65,6 +66,7 @@ class App extends React.Component {
 
           {displayMovies.length === 0 ? <h1>No Movies to display</h1> : ""}
         </div>
+        <Footer />
       </div>
     );
   }
