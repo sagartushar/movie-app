@@ -2,6 +2,7 @@ To view the project click on following link
 https://master.dabwu77ibmw9m.amplifyapp.com/
 
 # Getting Started with Create React App
+![Screenshot 2021-07-11 170749](https://user-images.githubusercontent.com/57557780/125193551-8fafb580-e26a-11eb-9566-57b06800a141.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
